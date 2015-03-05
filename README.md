@@ -9,7 +9,7 @@ $files = $loader
     ->load();
 
 foreach ($files as $file) {
-    /* @var $file \PHPoole\Loader\SplFileInfo */
+    /* @var $file \Loader\SplFileInfo */
     echo $file->getFrontmatter() . "\n";
     echo $file->getBody() . "\n";
 }
