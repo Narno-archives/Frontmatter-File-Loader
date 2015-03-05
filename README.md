@@ -3,7 +3,7 @@ Locates ```md``` files, parses contents to exposes the front matter (and the bod
 ```php
 require_once 'vendor/autoload.php';
 
-$loader = new \PHPoole\Loader\Loader('./test/content');
+$loader = new \Loader\Loader('./test/content');
 $files = $loader
     ->ext('md')
     ->load();
