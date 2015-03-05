@@ -1,5 +1,3 @@
-# Frontmatter-File-Loader
-
 Locates ```md``` files, parses contents to exposes the front matter (and the body) in the SplFileInfo object.
 
 ```php
